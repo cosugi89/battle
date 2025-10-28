@@ -44,6 +44,10 @@ Library/ArtifactDB
 # Unity editor local user settings
 UserSettings/
 
+# Package-specific local settings
+ProjectSettings/Packages/*
+!ProjectSettings/Packages/manifest.json
+
 # ============ #
 # OS Generated #
 # ============ #
@@ -78,3 +82,4 @@ Thumbs.db
 # Editor #
 # ============ #
 .vs/
+.vscode/
