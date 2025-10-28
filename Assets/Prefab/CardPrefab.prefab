@@ -406,6 +406,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 319bb390d81a8d74cbcb5035d86060d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: {fileID: 5578227591794296551}
-  valueText: {fileID: 5685280943839745237}
-  button: {fileID: 4878808937285462173}
+  _nameText: {fileID: 5578227591794296551}
+  _valueText: {fileID: 5685280943839745237}
+  _button: {fileID: 4878808937285462173}

@@ -4,9 +4,9 @@ using TMPro;
 
 public class CardView : MonoBehaviour
 {
-    public TMP_Text nameText;
-    public TMP_Text valueText;
-    public Button button;
+    [SerializeField] private TMP_Text _nameText;
+    [SerializeField] private TMP_Text _valueText;
+    [SerializeField] private Button _button;
 
     private Card cardData;
     private BattleManager battleManager;
@@ -16,10 +16,10 @@ public class CardView : MonoBehaviour
         cardData = card;
         battleManager = manager;
 
-        nameText.text = card.Name;
-        valueText.text = $"{card.Type} ({card.Value})";
+        _nameText.text = card.Name;
+        _valueText.text = $"{card.Type} ({card.Value})";
 
-        button.onClick.AddListener(OnClick);
+        _button.onClick.AddListener(OnClick);
     }
 
     private void OnClick()
